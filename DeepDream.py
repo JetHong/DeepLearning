@@ -85,7 +85,7 @@ def deep_dream(obj, img_noise=np.random.uniform(size=(224, 224, 3)) + 100.0, ite
 
 
 # 加载输入图像
-input_img = cv2.imread('./pic/doctor.jpg')
+input_img = cv2.imread('./pic/yasuo.jpg')
 input_img = np.float32(input_img)
 
 # 选择层
